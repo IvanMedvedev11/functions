@@ -5,7 +5,7 @@ def bats_to_rubles(bats):
 def wons_to_rubles(wons):
     return round(wons * 0.07, 2)
 try:
-    currency_count = int(input("Введите кол-во единиц валюты: "))
+    currency_count = float(input("Введите кол-во единиц валюты: "))
 except ValueError:
     print("Ты И Д И О Т")
     quit()
